@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 
-function App() {
+function App() {    
   return (
     <>
       {/* //Na linha seguinte deverá ser feito um teste se a aplicação

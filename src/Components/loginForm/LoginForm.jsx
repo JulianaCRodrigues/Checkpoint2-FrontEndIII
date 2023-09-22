@@ -2,6 +2,7 @@ import styles from "./Form.module.css";
 
 const LoginForm = () => {
   const handleSubmit = (e) => {
+    e.preventDefault();
     //Nesse handlesubmit você deverá usar o preventDefault,
     //enviar os dados do formulário e enviá-los no corpo da requisição 
     //para a rota da api que faz o login /auth
